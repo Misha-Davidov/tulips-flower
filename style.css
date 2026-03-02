@@ -326,3 +326,9 @@ footer {
     font-size: 14px !important;
     color: #2d6a4f; /* Темно-зеленый для акцента на наличии */
 }
+.logo-icon {
+    width: 29px; /* Ширина картинки */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}

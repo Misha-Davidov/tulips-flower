@@ -301,3 +301,31 @@ footer {
     .photo-slide .slide-img { height: 380px; }
     .slide-label { font-size: 14px; bottom: 15px; }
 }
+
+/* Стиль для номера картинки */
+.slide-number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 77, 109, 0.9); /* Твой основной розовый цвет */
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Обновим стиль подписи, чтобы она была лаконичнее */
+.slide-label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px !important;
+    color: #2d6a4f; /* Темно-зеленый для акцента на наличии */
+}

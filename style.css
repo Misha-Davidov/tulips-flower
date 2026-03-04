@@ -210,9 +210,10 @@ nav ul li a:hover { color: var(--primary); }
 /* 7. Подсказка и Анимация */
 .slider-hint {
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
+    padding-bottom: 7px;
     color: var(--primary);
-    margin-top: 10px;
+    margin-top: 0px;
     font-weight: bold;
     animation: pulse 2s infinite;
 }

@@ -152,6 +152,10 @@ nav ul li a:hover { color: var(--primary); }
     text-align: center;
     font-size: 16px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px !important;
+    color: #2d6a4f;
 }
 
 .flower-description {
@@ -321,12 +325,26 @@ footer {
 }
 
 /* Обновим стиль подписи, чтобы она была лаконичнее */
-.slide-label {
+
+.slide-label-no {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 12px 15px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: var(--dark);
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px !important;
-    color: #2d6a4f; /* Темно-зеленый для акцента на наличии */
+    color: #ff0000;
 }
+
 .logo-icon {
     width: 26px; /* Ширина картинки */
     height: auto;
